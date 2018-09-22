@@ -32,19 +32,22 @@ public class Glow : MonoBehaviour
             spriteRenderer.sprite = spriteGlow;
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
                 if (door == true){
-                    hidden = true;
-                    playerSprite.enabled = false;
-                    playerCollider.enabled = false;
+                   hidden = true;
+                   playerSprite.enabled = false;
+                   playerCollider.enabled = false;
                 }
 
         }
 
-         
+        if (interact == false) {
+            spriteRenderer.sprite = sprite;
 
-        while (hidden == true){
+        if (hidden == true){
                 //guy.movementSpeed = 0f;
             }
         }
         
     }
+
+}
 
