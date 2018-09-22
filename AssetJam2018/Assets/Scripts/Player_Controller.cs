@@ -32,17 +32,17 @@ public class Player_Controller : MonoBehaviour
         Flip(horizontal);
 
         if (weapon == 0)
-            myAnimator.SetFloat("Weapon", 0);
+            myAnimator.SetInteger("Weapon", 0);
         if (weapon == 1)
-            myAnimator.SetFloat("Weapon", 1);
+            myAnimator.SetInteger("Weapon", 1);
         if (weapon == 2)
-            myAnimator.SetFloat("Weapon", 2);
+            myAnimator.SetInteger("Weapon", 2);
         if (weapon == 3)
-            myAnimator.SetFloat("Weapon", 3);
+            myAnimator.SetInteger("Weapon", 3);
         if (weapon == 4)
-            myAnimator.SetFloat("Weapon", 4);
+            myAnimator.SetInteger("Weapon", 4);
         if (weapon == 5)
-            myAnimator.SetFloat("Weapon", 5);
+            myAnimator.SetInteger("Weapon", 5);
     }
     private void HandleMovement(float horizontal)
     {
