@@ -2,29 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Glow : MonoBehaviour {
+public class Glow : MonoBehaviour
+{
 
-	public Sprite sprite;
-	public Sprite spriteGlow;
-	public SpriteRenderer spriteRenderer;
-	public GameObject player;
+    public Sprite sprite;
+    public Sprite spriteGlow;
+    public SpriteRenderer spriteRenderer;
+    public Transform player;
+    public float leftEdge;
+    public float rightEdge;
 
-	private void OnCollisionEnter2D(Collision2D collision)
-	{
-		if(collision.gameObject.name == "Guy")
-		{
-			spriteRenderer.sprite = spriteGlow;
-		}
-	
+    private void Update()
+    {
+        if (player.position.x >= leftEdge && player.position.x <= rightEdge)
+            spriteRenderer.sprite = spriteGlow;
 
-	}
-	private void OnCollisionExit2D(Collision2D collision)
-	{
-		if(collision.gameObject.name == "Guy")
-		{
-			spriteRenderer.sprite = sprite;
-		}
-	}
+        if (player.position.x < leftEdge || player.position.x > rightEdge)
+            spriteRenderer.sprite = sprite;
+    }
 
 }
 

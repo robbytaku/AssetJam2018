@@ -1298,7 +1298,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 222392485}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1331,7 +1331,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 25d4e3cfb76aa234e984216d64ea55f0, type: 3}
   spriteGlow: {fileID: 21300000, guid: 390d76d8a1d2b9f42903d3b9f96bc1fc, type: 3}
   spriteRenderer: {fileID: 222392486}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 6.3
+  rightEdge: 6.75
 --- !u!1 &245571315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,7 +1478,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253787668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.31, y: 1.419, z: 14.41}
+  m_LocalPosition: {x: 1.31, y: 1.419, z: 17.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1627,7 +1629,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 262430855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.13, y: 0.90900004, z: 8.3}
+  m_LocalPosition: {x: 1.13, y: 0.90900004, z: 8.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1992,7 +1994,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 338288370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2025,7 +2027,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 7f699477e699a464899ca5393a07b312, type: 3}
   spriteGlow: {fileID: 21300000, guid: ee22d37aa9476a747abeea5f16a0bd85, type: 3}
   spriteRenderer: {fileID: 338288371}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 4.85
+  rightEdge: 5.15
 --- !u!1 &368532369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,7 +2948,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5
+  orthographic size: 1.3981168
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2967,7 +2971,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4, y: 1.077, z: -10}
+  m_LocalPosition: {x: -5.4, y: 1.038, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3260,7 +3264,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 693671036}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3293,7 +3297,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 7f699477e699a464899ca5393a07b312, type: 3}
   spriteGlow: {fileID: 21300000, guid: ee22d37aa9476a747abeea5f16a0bd85, type: 3}
   spriteRenderer: {fileID: 693671037}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: -3
+  rightEdge: -2.7
 --- !u!1 &703907112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,7 +3660,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 743917935}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3687,7 +3693,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 84af837fea1cfe5458e2dbb24f33446d, type: 3}
   spriteGlow: {fileID: 21300000, guid: 4e60412ca1ebcce4fb705bd96a871bb9, type: 3}
   spriteRenderer: {fileID: 743917936}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: -2.1
+  rightEdge: -1.8
 --- !u!1 &771342339
 GameObject:
   m_ObjectHideFlags: 0
@@ -4718,7 +4726,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 991372195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -4751,7 +4759,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: b7e67b12f0b8751438602a7aef182cae, type: 3}
   spriteGlow: {fileID: 21300000, guid: b368825e0da54c74984aad586c6cc12e, type: 3}
   spriteRenderer: {fileID: 991372196}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 7
+  rightEdge: 7.35
 --- !u!1 &1005615039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,7 +4833,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005615039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.08, y: 0.05, z: -0.132}
+  m_LocalPosition: {x: -6.89, y: 0.05, z: -0.132}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4955,7 +4965,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1009767060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -4988,7 +4998,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: b7e67b12f0b8751438602a7aef182cae, type: 3}
   spriteGlow: {fileID: 21300000, guid: b368825e0da54c74984aad586c6cc12e, type: 3}
   spriteRenderer: {fileID: 1009767061}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: -1.1
+  rightEdge: -0.72
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,7 +5147,7 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 253787670}
   - {fileID: 262430857}
-  smoothing: 5
+  smoothing: 1
 --- !u!4 &1091949170
 Transform:
   m_ObjectHideFlags: 0
@@ -5532,7 +5544,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1259401821}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5565,7 +5577,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 84af837fea1cfe5458e2dbb24f33446d, type: 3}
   spriteGlow: {fileID: 21300000, guid: 4e60412ca1ebcce4fb705bd96a871bb9, type: 3}
   spriteRenderer: {fileID: 1259401822}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 3.4
+  rightEdge: 3.75
 --- !u!1 &1263105423
 GameObject:
   m_ObjectHideFlags: 0
@@ -5783,7 +5797,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1310462338}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5816,7 +5830,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: b8f8b924b9dc48140b3f8dad5fde8438, type: 3}
   spriteGlow: {fileID: 21300000, guid: 7c102c964ae93f445b3bfe35c64f1ca9, type: 3}
   spriteRenderer: {fileID: 1310462339}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 3.85
+  rightEdge: 4.65
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -5900,7 +5916,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1329461257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5933,7 +5949,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: b8f8b924b9dc48140b3f8dad5fde8438, type: 3}
   spriteGlow: {fileID: 21300000, guid: 7c102c964ae93f445b3bfe35c64f1ca9, type: 3}
   spriteRenderer: {fileID: 1329461258}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: -5
+  rightEdge: -4.2
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,7 +6564,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1505373000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6579,7 +6597,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 029288b84bcfc6f4aba05d1395ebbe6a, type: 3}
   spriteGlow: {fileID: 21300000, guid: 5ae6094e573fdbc43bc18419a2cf98af, type: 3}
   spriteRenderer: {fileID: 1505373001}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 1.4
+  rightEdge: 2.05
 --- !u!1 &1506633454
 GameObject:
   m_ObjectHideFlags: 0
@@ -7359,7 +7379,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1679403808}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -7392,7 +7412,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 253e6c41eaba4dd4585555353935fe47, type: 3}
   spriteGlow: {fileID: 21300000, guid: 870215c830ed0284c8f5305a443dd4ab, type: 3}
   spriteRenderer: {fileID: 1679403809}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 2.75
+  rightEdge: 3.05
 --- !u!1 &1699764192
 GameObject:
   m_ObjectHideFlags: 0
@@ -7877,7 +7899,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943546764}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -7910,7 +7932,9 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: abc750629a23f72448bc9a1ddbc4f3fd, type: 3}
   spriteGlow: {fileID: 21300000, guid: 9687dccc2bd495e4e8ea6efe4b451a5e, type: 3}
   spriteRenderer: {fileID: 1943546765}
-  player: {fileID: 1383622149}
+  player: {fileID: 1383622151}
+  leftEdge: 0.5
+  rightEdge: 0.9
 --- !u!1 &2035551602
 GameObject:
   m_ObjectHideFlags: 0
