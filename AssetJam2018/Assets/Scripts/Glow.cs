@@ -46,7 +46,8 @@ public class Glow : MonoBehaviour
 		if (interact == true && hidden == false) {
             spriteRenderer.sprite = spriteGlow;
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
-                if (door == true){
+                if (door == true && unlocked == true)
+				{
                    hidden = true;
                    playerSprite.enabled = false;
                    playerCollider.enabled = false;
