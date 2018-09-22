@@ -1334,7 +1334,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 6.3
   rightEdge: 6.75
-  weapon: 0
+  weapon: {fileID: 1875957915}
+  unlocked: 1
+  door: 0
 --- !u!1 &245571315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,7 +2033,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 4.85
   rightEdge: 5.15
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 0
+  door: 1
 --- !u!1 &368532369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,7 +3306,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: -3
   rightEdge: -2.7
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 1
+  door: 1
 --- !u!1 &703907112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,7 +3705,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: -2.1
   rightEdge: -1.8
-  weapon: 0
+  weapon: {fileID: 1875957915}
+  unlocked: 1
+  door: 0
 --- !u!1 &771342339
 GameObject:
   m_ObjectHideFlags: 0
@@ -4766,7 +4774,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 7
   rightEdge: 7.35
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 1
+  door: 1
 --- !u!1 &1005615039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,7 +5016,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: -1.1
   rightEdge: -0.72
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 0
+  door: 1
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -5586,7 +5598,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 3.4
   rightEdge: 3.75
-  weapon: 0
+  weapon: {fileID: 1409766024}
+  unlocked: 1
+  door: 0
 --- !u!1 &1263105423
 GameObject:
   m_ObjectHideFlags: 0
@@ -5746,6 +5760,7 @@ Transform:
   - {fileID: 1409766025}
   - {fileID: 2023225138}
   - {fileID: 1267820167}
+  - {fileID: 1855668832}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5901,7 +5916,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 3.85
   rightEdge: 4.65
-  weapon: 0
+  weapon: {fileID: 1267820166}
+  unlocked: 1
+  door: 0
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -6021,7 +6038,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: -5
   rightEdge: -4.2
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 1
+  door: 0
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6698,7 +6717,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 1.4
   rightEdge: 2.05
-  weapon: 0
+  weapon: {fileID: 1899979371}
+  unlocked: 1
+  door: 0
 --- !u!1 &1506633454
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,7 +7535,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 2.75
   rightEdge: 3.05
-  weapon: 0
+  weapon: {fileID: 1855668831}
+  unlocked: 1
+  door: 1
 --- !u!1 &1699764192
 GameObject:
   m_ObjectHideFlags: 0
@@ -7916,6 +7939,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!1 &1855668831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855668832}
+  m_Layer: 0
+  m_Name: NONE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855668832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855668831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1277930762}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875957915
 GameObject:
   m_ObjectHideFlags: 0
@@ -8091,7 +8142,9 @@ MonoBehaviour:
   player: {fileID: 1383622151}
   leftEdge: 0.5
   rightEdge: 0.9
-  weapon: 0
+  weapon: {fileID: 2023225137}
+  unlocked: 1
+  door: 0
 --- !u!1 &2023225137
 GameObject:
   m_ObjectHideFlags: 0
