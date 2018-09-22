@@ -126,7 +126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b3992987fa4de4cba72b4f7eb757fa
+      spriteID: 38a8f4e294c5fb24c86936a0ad77784c
       vertices: []
       indices: 
       edges: []
@@ -135,10 +135,10 @@ TextureImporter:
       name: chef_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 51
         y: 0
-        width: 29
-        height: 42
+        width: 20
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,7 +146,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84e50eb2aff1c3b46bc452f1f5ac7d29
+      spriteID: 4ef40d40c090efa478fb8486ce0a080f
       vertices: []
       indices: 
       edges: []
@@ -166,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bcc5a3629b45be47b89d8fe5b35be6c
+      spriteID: 6e634c4e742ecdf4da176150a70a44ea
       vertices: []
       indices: 
       edges: []
@@ -186,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48a976196ad36e843b6df1481839e108
+      spriteID: 53c639896926b1148a6377b4236a8d2a
       vertices: []
       indices: 
       edges: []
@@ -206,7 +206,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1879bd4dfd875b34585f8d9f34f9e1bd
+      spriteID: 7382db694bfb33041b4dd210135182f6
       vertices: []
       indices: 
       edges: []
@@ -226,7 +226,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31be50f68943d144824f96831d25f26
+      spriteID: f4b7228efca898845ab384520bc72eba
       vertices: []
       indices: 
       edges: []
@@ -234,7 +234,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f0af7e075b7fae24b80ed0fc19ad3133
+    spriteID: ce732d2c28fcb9b479b0255960caff36
     vertices: []
     indices: 
     edges: []
