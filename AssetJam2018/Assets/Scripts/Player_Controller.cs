@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Contoller : MonoBehaviour
+public class Player_Controller : MonoBehaviour
 {
 
 
@@ -10,7 +10,7 @@ public class Player_Contoller : MonoBehaviour
 
     private Animator myAnimator;
     [SerializeField]
-    private float movementSpeed;
+    public float movementSpeed = 1f;
 
     private bool facingRight;
 

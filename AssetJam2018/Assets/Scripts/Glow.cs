@@ -10,7 +10,7 @@ public class Glow : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public SpriteRenderer playerSprite;
     public Transform player;
-    public GameObject guy;
+    public Player_Controller controller;
     public float leftEdge;
     public float rightEdge;
     private bool interact;
@@ -22,30 +22,46 @@ public class Glow : MonoBehaviour
 
     private void Update()
     {
-        if (player.position.x >= leftEdge && player.position.x <= rightEdge)
-            interact = true;
 
-        if (player.position.x < leftEdge || player.position.x > rightEdge)
-            interact = false;
+		if (player.position.x >= leftEdge && player.position.x <= rightEdge && hidden == false)
+			interact = true;
 
-        if (interact == true) {
+		if (player.position.x < leftEdge || player.position.x > rightEdge && hidden == false)
+			interact = false;
+
+
+		if (interact == false && hidden == true)
+		{
+			spriteRenderer.sprite = sprite;
+			controller.movementSpeed = 0f;
+			if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
+			{
+				hidden = false;
+				playerSprite.enabled = true;
+				playerCollider.enabled = true;
+				controller.movementSpeed = 1f;
+			}
+		}
+
+		if (interact == true && hidden == false) {
             spriteRenderer.sprite = spriteGlow;
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
                 if (door == true){
                    hidden = true;
                    playerSprite.enabled = false;
                    playerCollider.enabled = false;
+					interact = false;
                 }
+		
 
-        }
+		}
 
         if (interact == false) {
             spriteRenderer.sprite = sprite;
 
-        if (hidden == true){
-                //guy.movementSpeed = 0f;
-            }
-        }
+		
+
+		}
         
     }
 

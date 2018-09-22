@@ -1333,7 +1333,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 222392486}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 6.3
   rightEdge: 6.75
   weapon: {fileID: 1875957915}
@@ -2035,7 +2035,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 338288371}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 4.85
   rightEdge: 5.15
   weapon: {fileID: 1855668831}
@@ -3311,7 +3311,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 693671037}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: -3
   rightEdge: -2.7
   weapon: {fileID: 1855668831}
@@ -3713,7 +3713,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 743917936}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: -2.1
   rightEdge: -1.8
   weapon: {fileID: 1875957915}
@@ -4785,7 +4785,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 991372196}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 7
   rightEdge: 7.35
   weapon: {fileID: 1855668831}
@@ -5030,7 +5030,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1009767061}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: -1.1
   rightEdge: -0.72
   weapon: {fileID: 1855668831}
@@ -5615,7 +5615,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1259401822}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 3.4
   rightEdge: 3.75
   weapon: {fileID: 1409766024}
@@ -5936,7 +5936,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1310462339}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 3.85
   rightEdge: 4.65
   weapon: {fileID: 1267820166}
@@ -6061,7 +6061,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1329461258}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: -5
   rightEdge: -4.2
   weapon: {fileID: 1855668831}
@@ -6743,7 +6743,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1505373001}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 1.4
   rightEdge: 2.05
   weapon: {fileID: 1899979371}
@@ -7564,7 +7564,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1679403809}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 2.75
   rightEdge: 3.05
   weapon: {fileID: 1855668831}
@@ -8174,7 +8174,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1943546765}
   playerSprite: {fileID: 1383622150}
   player: {fileID: 1383622151}
-  guy: {fileID: 1383622149}
+  controller: {fileID: 1383622155}
   leftEdge: 0.5
   rightEdge: 0.9
   weapon: {fileID: 2023225137}
