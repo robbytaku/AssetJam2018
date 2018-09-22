@@ -4803,6 +4803,7 @@ GameObject:
   - component: {fileID: 1005615040}
   - component: {fileID: 1005615042}
   - component: {fileID: 1005615043}
+  - component: {fileID: 1005615044}
   m_Layer: 0
   m_Name: Chef
   m_TagString: Untagged
@@ -4863,7 +4864,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005615039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.89, y: 0.05, z: -0.132}
+  m_LocalPosition: {x: -6.93, y: 0.05, z: -0.132}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4912,6 +4913,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13439018, y: 0.42}
   m_EdgeRadius: 0
+--- !u!114 &1005615044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005615039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f440b66024124af4eb284f9cca3d2c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints: []
+  speed: 0
 --- !u!1 &1009767060
 GameObject:
   m_ObjectHideFlags: 0
