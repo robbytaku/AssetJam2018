@@ -39,8 +39,7 @@ public class Glow : MonoBehaviour
 
         }
 
-        if (interact == false) {
-            spriteRenderer.sprite = sprite;
+         
 
         while (hidden == true){
                 //guy.movementSpeed = 0f;
