@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class position : MonoBehaviour {
+public class Position : MonoBehaviour {
 
 	public GameObject player;
 
@@ -12,7 +12,12 @@ public class position : MonoBehaviour {
 		offset = transform.position - player.transform.position;
 	}
 	
-	void FixedUpdate () {
+	void LateUpdate () {
 		transform.position = player.transform.position + offset;
+
+		if (player.transform.position.x <= -3.45f)
+			transform.position = new Vector3(-3.45f, transform.position.y, transform.position.z);
+		if (player.transform.position.x >= 6.05f)
+			transform.position = new Vector3(6.05f, transform.position.y, transform.position.z);
 	}
 }
