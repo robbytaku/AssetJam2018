@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plaver_Movement : MonoBehaviour
+public class Player_Contoller : MonoBehaviour
 {
 
 
     private Rigidbody2D myRigidbody;
 
+    private Animator myAnimator;
     [SerializeField]
     private float movementSpeed;
 
@@ -16,10 +17,10 @@ public class Plaver_Movement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        facingRight = true; 
+        facingRight = true;
         myRigidbody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
 
-        
     }
 
     // Update is called once per frame
@@ -34,6 +35,8 @@ public class Plaver_Movement : MonoBehaviour
     {
 
         myRigidbody.velocity = new Vector2(horizontal * movementSpeed, myRigidbody.velocity.y);
+
+        myAnimator.SetFloat("speed", Mathf.Abs(horizontal));
     }
 
     private void Flip(float horizontal)
@@ -51,4 +54,3 @@ public class Plaver_Movement : MonoBehaviour
         }
     }
 }
-
