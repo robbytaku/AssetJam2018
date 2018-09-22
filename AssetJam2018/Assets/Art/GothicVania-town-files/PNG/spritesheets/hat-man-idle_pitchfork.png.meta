@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: 564bf4bd687a12f41967ff86aadb3b3d
+guid: 6b54f39e2e9ab1e46815bc9aaebbb368
 TextureImporter:
   fileIDToRecycleName:
-    21300000: oldman-idle_0
-    21300002: oldman-idle_1
-    21300004: oldman-idle_2
-    21300006: oldman-idle_3
-    21300008: oldman-idle_4
-    21300010: oldman-idle_5
-    21300012: oldman-idle_6
-    21300014: oldman-idle_7
+    21300000: hat-man-idle_pitchfork_0
+    21300002: hat-man-idle_pitchfork_1
+    21300004: hat-man-idle_pitchfork_2
+    21300006: hat-man-idle_pitchfork_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -114,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman-idle_0
+      name: hat-man-idle_pitchfork_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 0
-        width: 23
-        height: 37
+        width: 36
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec753b6c955aff49b4e59f1080d55b3
+      spriteID: 43c7846fe2a82154ea56a43df2426d68
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oldman-idle_1
+      name: hat-man-idle_pitchfork_1
       rect:
         serializedVersion: 2
-        x: 43
+        x: 42
         y: 0
-        width: 23
-        height: 31
+        width: 36
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,98 +144,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6ae9a90c43d8e4995834558ba88054
+      spriteID: 16bd3a109c97a8044bda629c56f0fd62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oldman-idle_2
+      name: hat-man-idle_pitchfork_2
       rect:
         serializedVersion: 2
-        x: 78
+        x: 80
         y: 0
-        width: 23
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43128badd6eada14a98c66f7f3d8395a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman-idle_3
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 21
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc328c747d08fd469dc64deec116c88
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman-idle_4
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 0
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5149130e5d588734c97c9262b6fcf574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman-idle_5
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 0
-        width: 21
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77ebc6f1d2c9d104e862eab4df49c934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman-idle_6
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 0
-        width: 24
+        width: 38
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,19 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d881eb6a657e6724cb6b5432798c39fe
+      spriteID: 408cf2e774071b2489bbd789dba2ebf6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oldman-idle_7
+      name: hat-man-idle_pitchfork_3
       rect:
         serializedVersion: 2
-        x: 242
+        x: 120
         y: 0
-        width: 27
-        height: 42
+        width: 36
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06139743e76651c4ba44b187fd7c011a
+      spriteID: c1adbde19d0d2144cb3e43b7b1843c1c
       vertices: []
       indices: 
       edges: []
@@ -276,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 99a2310250e1e9a4d8ddac4d30ddc07c
+    spriteID: 1f82891bac7a492469ea3ddafb07bb0d
     vertices: []
     indices: 
     edges: []

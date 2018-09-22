@@ -14,7 +14,6 @@ public class Player_Controller : MonoBehaviour
 
     private bool facingRight;
 
-    // Use this for initialization
     void Start()
     {
         facingRight = true;
@@ -23,7 +22,6 @@ public class Player_Controller : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
