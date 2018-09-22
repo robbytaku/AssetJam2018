@@ -15,9 +15,9 @@ public class Position : MonoBehaviour {
 	void LateUpdate () {
 		transform.position = player.transform.position + offset;
 
-		if (player.transform.position.x <= -3.3f)
-			transform.position = new Vector3(-3.3f, transform.position.y, transform.position.z);
-		if (player.transform.position.x >= 5.85f)
-			transform.position = new Vector3(5.85f, transform.position.y, transform.position.z);
+		if (player.transform.position.x <= -3.75f)
+			transform.position = new Vector3(-3.75f, transform.position.y, transform.position.z);
+		if (player.transform.position.x >= 6.3f)
+			transform.position = new Vector3(6.3f, transform.position.y, transform.position.z);
 	}
 }
