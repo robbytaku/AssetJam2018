@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Villager
   - Chef
+  - Projectile
   layers:
   - Default
   - TransparentFX
