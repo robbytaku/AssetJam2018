@@ -137,7 +137,6 @@ public class Player_Controller : MonoBehaviour
             spriteRenderer.enabled = false;
             boxCollider2D.enabled = false;
             Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             StartCoroutine(Death());
 
         }
