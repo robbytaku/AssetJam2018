@@ -6580,7 +6580,7 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 1472061529}
   - {fileID: 1192416005}
-  speed: 0.5
+  speed: 0.75
 --- !u!1 &1009767060
 GameObject:
   m_ObjectHideFlags: 0
