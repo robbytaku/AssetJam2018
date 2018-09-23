@@ -88,6 +88,7 @@ BoxCollider2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     oldSize: {x: 0.36, y: 0.08}
 =======
 =======
@@ -132,6 +133,9 @@ BoxCollider2D:
     oldSize: {x: 0.14, y: 0.04}
 >>>>>>> parent of c95f10b... good game bois
 >>>>>>> parent of 4625f86... Revert "Revert "good game bois""
+=======
+    oldSize: {x: 0.14, y: 0.04}
+>>>>>>> parent of c95f10b... good game bois
 =======
     oldSize: {x: 0.14, y: 0.04}
 >>>>>>> parent of c95f10b... good game bois
@@ -204,6 +208,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
@@ -256,6 +261,9 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
 >>>>>>> parent of c95f10b... good game bois
 >>>>>>> parent of 4625f86... Revert "Revert "good game bois""
+=======
+  m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
+>>>>>>> parent of c95f10b... good game bois
 =======
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
 >>>>>>> parent of c95f10b... good game bois

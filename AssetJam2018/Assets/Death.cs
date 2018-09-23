@@ -34,6 +34,7 @@ public class Death : MonoBehaviour {
 	public AudioSource screamSound, soundSmash;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public GameObject slash;
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
 =======
@@ -46,6 +47,8 @@ public class Death : MonoBehaviour {
 =======
 >>>>>>> parent of c95f10b... good game bois
 >>>>>>> parent of 4625f86... Revert "Revert "good game bois""
+=======
+>>>>>>> parent of c95f10b... good game bois
 =======
 >>>>>>> parent of c95f10b... good game bois
 
