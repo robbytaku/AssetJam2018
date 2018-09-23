@@ -64,11 +64,8 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         if (health == 0)
         {
-            StartCoroutine(Victory());
-            speed = 0;
-            soundScream.Play();
 
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 
         }
 
