@@ -19,6 +19,7 @@ public class Glow : MonoBehaviour
     public bool unlocked = true;
     public bool door = false;
     private bool hidden = false;
+	public AudioSource doorLocked, doorOpen, doorClose;
 
     private void Update()
     {
@@ -36,6 +37,7 @@ public class Glow : MonoBehaviour
             controller.movementSpeed = 0f;
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
             {
+				doorClose.Play();
                 hidden = false;
                 playerSprite.enabled = true;
                 playerCollider.enabled = true;
@@ -47,9 +49,11 @@ public class Glow : MonoBehaviour
         if (interact == true && hidden == false)
         {
             spriteRenderer.sprite = spriteGlow;
-            if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
-            {
-                if (weapon == 1 && controller.weapon == 0)
+            if (Input.GetKeyDown("w") || (Input.GetKeyDown("up"))){
+				if (unlocked == false)
+					doorLocked.Play();
+
+				if (weapon == 1 && controller.weapon == 0)
                 {
                     controller.weapon = 1;
                     weapon = 0;
@@ -82,6 +86,7 @@ public class Glow : MonoBehaviour
 
                 if (door == true && unlocked == true)
                 {
+					doorOpen.Play();
                     hidden = true;
                     playerSprite.enabled = false;
                     playerCollider.enabled = false;
