@@ -465,12 +465,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9808d24659788bf42a43c4283096ba8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
+  meat: {fileID: 0}
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &32114280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,11 +1038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &135452734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,11 +1309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &154188477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,11 +2350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &262430855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4075,11 +4064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &529301520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4434,11 +4420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &618317709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5521,13 +5504,6 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 48ee84360cd3f8c4e9c3196d5935e580, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Volume: 0.4
-  m_Volume: 1
-  m_Volume: 1
-  m_Volume: 0.4
-  m_Volume: 1
-  m_Volume: 0.4
-  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6164,11 +6140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &899516568
 GameObject:
   m_ObjectHideFlags: 0
@@ -7020,11 +6993,6 @@ MonoBehaviour:
   - {fileID: 1472061529}
   - {fileID: 1192416005}
   speed: 0.75
-  target: {fileID: 1383622151}
-  chaseRange: 2
-  attackRange: 0
-  damage: 0
-  attackDelay: 0
   soundGrunt: {fileID: 2105001533}
   soundSmash: {fileID: 496525568}
   health: 5
@@ -7337,11 +7305,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8635,11 +8600,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -8929,11 +8891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -10143,11 +10102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1600731530
 GameObject:
   m_ObjectHideFlags: 0
@@ -10303,11 +10259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1601019038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11042,7 +10995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1708724247}
   - component: {fileID: 1708724249}
-  - component: {fileID: 1708724248}
   m_Layer: 12
   m_Name: HPBAR
   m_TagString: Untagged
@@ -11063,25 +11015,6 @@ Transform:
   m_Father: {fileID: 1005615041}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1708724248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708724246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11c8d751f432d0c40afea9cbe2405ac5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chef: {fileID: 1005615044}
-  spriteRenderer: {fileID: 1708724249}
-  sprite5: {fileID: 21300010, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
-  sprite4: {fileID: 21300008, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
-  sprite3: {fileID: 21300006, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
-  sprite2: {fileID: 21300004, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
-  sprite1: {fileID: 21300002, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
-  sprite0: {fileID: 21300000, guid: f294902a0739eeb4ebb38c3325575df1, type: 3}
 --- !u!212 &1708724249
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11125,7 +11058,7 @@ SpriteRenderer:
   m_Size: {x: 0.5, y: 0.09}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1730857488
@@ -11665,11 +11598,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &1913531810
 GameObject:
   m_ObjectHideFlags: 0
@@ -12083,11 +12013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  slash: {fileID: 0}
 --- !u!1 &2035551602
 GameObject:
   m_ObjectHideFlags: 0
@@ -12569,10 +12496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
-  screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
+  slash: {fileID: 0}
 --- !u!1 &2105001531
 GameObject:
   m_ObjectHideFlags: 0
