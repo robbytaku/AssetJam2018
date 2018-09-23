@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114358781868486466}
   m_Layer: 0
   m_Name: Projectile_left
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1405464406411058}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
@@ -62,7 +62,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!61 &61107617584774854
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -79,6 +79,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +114,9 @@ BoxCollider2D:
 =======
 >>>>>>> 19109af32047dfb1e913be244a27ca887cd0eb8b
 >>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
+=======
+    oldSize: {x: 0.12, y: 0.04}
+>>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
     newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -136,10 +140,6 @@ MonoBehaviour:
   delay: 3
   controller: {fileID: 0}
   spriteRenderer: {fileID: 212506852648079860}
-  soundScream: {fileID: 82434290071276114, guid: f1a926a9805de734c8c3154b995dbb52,
-    type: 2}
-  soundGrunt: {fileID: 82362279948573702, guid: 3669a70f9d58a61428a8f284db457ad6,
-    type: 2}
 --- !u!212 &212506852648079860
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -181,6 +181,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
@@ -211,6 +212,9 @@ SpriteRenderer:
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
 >>>>>>> 19109af32047dfb1e913be244a27ca887cd0eb8b
 >>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
+=======
+  m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
+>>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

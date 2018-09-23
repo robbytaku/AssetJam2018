@@ -18,7 +18,7 @@ public class Glow : MonoBehaviour
     public BoxCollider2D playerCollider;
     public bool unlocked = true;
     public bool door = false;
-    private bool hidden = false;
+    public bool hidden = false;
 	public AudioSource doorLocked, doorOpen, doorClose, weaponBottle, weaponKnife, weaponBlade, weaponPitchfork, weaponHeavy, emptyBox;
 
     private void Update()

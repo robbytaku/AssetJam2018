@@ -2,13 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VictimOne : MonoBehaviour {
+public class VictimOne : MonoBehaviour
+{
 
-	void Start () {
-		
+	public float speed;
+	public AudioSource screamSound, soundSmash;
+	public GameObject meat;
+	public GameObject slash;
+
+
+	void Update()
+	{
+
+		transform.position += transform.right * speed * Time.deltaTime;
+
 	}
-	
-	void Update () {
-		
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag.Equals("Projectile"))
+		{
+			screamSound.Play();
+			Destroy(gameObject);
+			Instantiate(meat, transform.position - (transform.up * 0.09f), transform.rotation);
+		}
+
+		if (collision.gameObject.tag.Equals("Chef"))
+		{
+			soundSmash.Play();
+			Instantiate(slash, transform.position - (transform.up * 0.075f), transform.rotation);
+			Destroy(gameObject);
+			Instantiate(meat, transform.position - (transform.up * 0.09f), transform.rotation);
+		}
 	}
 }
