@@ -18,9 +18,9 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
     void Update()
     {
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
+       
         //Check to see if we have reached patrol point 
-        if (Vector3.Distance(transform.position, currentPatrolPoint.position) < .1f)
+        if (Vector3.Distance(transform.position, currentPatrolPoint.position) < .3f)
         {
             // we have reached the patrol point - get the next one
 
@@ -35,10 +35,20 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
 
         Vector3 patrolPointDir = currentPatrolPoint.position - transform.position;
-        float angle = Mathf.Atan2(patrolPointDir.x, patrolPointDir.y) * Mathf.Rad2Deg - 90f;
+        Vector3 newScale;
+       if(patrolPointDir.x < 0f)
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
+            newScale = new Vector3(-1, 1, 1);
+            transform.localScale = newScale;
+        }
+        if (patrolPointDir.x > 0f)
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * speed);
+            newScale = new Vector3(1, 1, 1);
+            transform.localScale = newScale;
 
-        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, q,180f);
+        }
     }
 
   
