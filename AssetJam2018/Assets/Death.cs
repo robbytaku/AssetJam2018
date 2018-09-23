@@ -6,6 +6,7 @@ public class Death : MonoBehaviour {
 
 	public GameObject meat;
 	public AudioSource screamSound, soundSmash;
+	public GameObject slash;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,7 @@ public class Death : MonoBehaviour {
 		if (collision.gameObject.tag.Equals("Chef"))
 		{
 			soundSmash.Play();
+			Instantiate(slash, transform.position - (transform.up * 0.075f), transform.rotation);
 			Destroy(gameObject);
 			Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
 		}
