@@ -18,6 +18,8 @@ public class Player_Controller : MonoBehaviour
     public SpriteRenderer spriteRenderer_left, spriteRenderer_right;
     public Sprite bottle, knife, blade, pitchfork, heavy;
 	public AudioSource throwSound;
+    public AudioSource soundSmash;
+    public GameObject meat, slash;
 
     void Start()
     {
@@ -121,5 +123,16 @@ public class Player_Controller : MonoBehaviour
             transform.localScale = theScale;
 
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Chef"))
+        {
+            soundSmash.Play();
+            Instantiate(slash, transform.position - (transform.up * 0.01f), transform.rotation);
+            Destroy(gameObject);
+            Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+        }
+
     }
 }
