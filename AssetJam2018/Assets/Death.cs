@@ -5,7 +5,7 @@ using UnityEngine;
 public class Death : MonoBehaviour {
 
 	public GameObject meat;
-	public AudioSource screamSound;
+	public AudioSource screamSound, soundSmash;
 
 	// Use this for initialization
 	void Start () {
@@ -15,8 +15,18 @@ public class Death : MonoBehaviour {
 	// Update is called once per frame
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		screamSound.Play();
-		Destroy(gameObject);
-		Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+		if(collision.gameObject.tag.Equals("Projectile"))
+		{ 
+			screamSound.Play();
+			Destroy(gameObject);
+			Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+		}
+
+		if (collision.gameObject.tag.Equals("Chef"))
+		{
+			soundSmash.Play();
+			Destroy(gameObject);
+			Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+		}
 	}
 }

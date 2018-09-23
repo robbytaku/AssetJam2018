@@ -8,6 +8,8 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
     public float speed;
     Transform currentPatrolPoint;
     int currentPatrolIndex;
+	public AudioSource soundGrunt, soundSmash;
+	public int health = 5;
 
 
     void Start()
@@ -49,8 +51,26 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
             transform.localScale = newScale;
 
         }
+		if (health == 0)
+			Destroy(gameObject);
+	
     }
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag.Equals("Projectile"))
+		{ 
+			soundGrunt.Play();
+			health -= 1;
+		}
 
-  
-        
+		if (collision.gameObject.tag.Equals("Villager"))
+		{
+			Debug.Log("whats up gamers");
+			soundSmash.Play();	
+		}
+
+	}
+
+
+
 }
