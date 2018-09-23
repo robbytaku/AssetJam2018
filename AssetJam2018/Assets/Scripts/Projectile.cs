@@ -9,7 +9,6 @@ public class Projectile : MonoBehaviour {
     public Player_Controller controller;
     Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
-	public AudioSource soundScream, soundGrunt;
 
 	// Use this for initialization
 	void Start () {
@@ -23,14 +22,12 @@ public class Projectile : MonoBehaviour {
 	{
 		if (collision.gameObject.tag.Equals("Villager"))
 		{
-			soundScream.Play();
 			Destroy(gameObject);
 
 		}
 
 		if (collision.gameObject.tag.Equals("Chef"))
 		{
-			soundGrunt.Play();
 			Destroy(gameObject);
 
 		}
