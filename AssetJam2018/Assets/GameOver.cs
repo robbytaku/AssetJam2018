@@ -8,7 +8,7 @@ public class GameOver : MonoBehaviour {
 
     public void gameOver()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 3));
     }
 
 }
