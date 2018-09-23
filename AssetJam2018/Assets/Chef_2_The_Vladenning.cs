@@ -47,13 +47,13 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         patrolPointDir = currentPatrolPoint.position - transform.position;
         Vector3 newScale;
-       if(patrolPointDir.x < 0f)
+       if(currentPatrolIndex == 1)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
             newScale = new Vector3(-1.3f, 1.3f, 1f);
             transform.localScale = newScale;
         }
-        if (patrolPointDir.x > 0f)
+        if (currentPatrolIndex == 0)
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
             newScale = new Vector3(1.3f, 1.3f, 1f);
@@ -76,13 +76,13 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
 		if (collision.gameObject.tag.Equals("Villager"))
 		{
-            speed += 0.075f;
+            speed += 0.05f;
 			soundSmash.Play();	
 		}
 
         if (collision.gameObject.tag.Equals("Guy"))
         {
-            speed += 0.075f;
+            speed += 0.05f;
             soundSmash.Play();
         }
 
