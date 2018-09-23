@@ -79,66 +79,19 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     oldSize: {x: 0.36, y: 0.08}
-=======
-=======
     oldSize: {x: 0.36, y: 0.08}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
     oldSize: {x: 0.36, y: 0.08}
-=======
     oldSize: {x: 0.12, y: 0.04}
->>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
-=======
     oldSize: {x: 0.35, y: 0.04}
->>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
-=======
     oldSize: {x: 0.12, y: 0.04}
->>>>>>> parent of a76ff8f... asd
-=======
     oldSize: {x: 0.12, y: 0.04}
->>>>>>> parent of a76ff8f... asd
-=======
     oldSize: {x: 0.36, y: 0.08}
->>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
-<<<<<<< HEAD
-=======
->>>>>>> 19109af32047dfb1e913be244a27ca887cd0eb8b
->>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
-=======
     oldSize: {x: 0.12, y: 0.04}
->>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
-=======
     oldSize: {x: 0.14, y: 0.04}
->>>>>>> parent of c95f10b... good game bois
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
-=======
     oldSize: {x: 0.14, y: 0.04}
->>>>>>> parent of c95f10b... good game bois
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
-=======
     oldSize: {x: 0.14, y: 0.04}
->>>>>>> parent of c95f10b... good game bois
-=======
     oldSize: {x: 0.14, y: 0.04}
->>>>>>> parent of c95f10b... good game bois
     newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -197,76 +150,21 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
-=======
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
-=======
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
->>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
-=======
   m_Sprite: {fileID: 21300000, guid: 70f1b71586d1f4e4e9a15799f794342c, type: 3}
->>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
-=======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
->>>>>>> parent of a76ff8f... asd
-=======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
->>>>>>> parent of a76ff8f... asd
-=======
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
->>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
-<<<<<<< HEAD
-=======
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
->>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
-=======
   m_Sprite: {fileID: 21300000, guid: 70f1b71586d1f4e4e9a15799f794342c, type: 3}
->>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
->>>>>>> 19109af32047dfb1e913be244a27ca887cd0eb8b
->>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
-=======
   m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
->>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
-=======
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
->>>>>>> parent of c95f10b... good game bois
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
-=======
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
->>>>>>> parent of c95f10b... good game bois
->>>>>>> parent of 4625f86... Revert "Revert "good game bois""
-=======
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
->>>>>>> parent of c95f10b... good game bois
-=======
   m_Sprite: {fileID: 21300000, guid: 79f45064f93e5504db96b121f8b377d6, type: 3}
->>>>>>> parent of c95f10b... good game bois
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
