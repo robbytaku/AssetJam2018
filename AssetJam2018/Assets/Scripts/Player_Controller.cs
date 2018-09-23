@@ -11,9 +11,9 @@ public class Player_Controller : MonoBehaviour
     public Animator myAnimator;
     [SerializeField]
     public float movementSpeed = 1f;
-
-    private bool facingRight;
-
+    public GameObject projectile_left, projectile_right;
+    public bool facingRight;
+    public Transform firePoint;
     public int weapon = 0;
 
     void Start()
@@ -21,6 +21,7 @@ public class Player_Controller : MonoBehaviour
         facingRight = true;
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+
 
     }
 
@@ -45,9 +46,14 @@ public class Player_Controller : MonoBehaviour
             myAnimator.SetInteger("Weapon", 5);
         if (weapon > 0)
         {
-            if(Input.GetKeyDown("space")) {
+            if(Input.GetKeyDown("space") && facingRight == true) {
                 weapon = 0;
-
+                Instantiate(projectile_right, transform.position + (transform.right * 0.25f), transform.rotation);
+            }
+            if(Input.GetKeyDown("space") && facingRight == false)
+            {
+                weapon = 0;
+                Instantiate(projectile_left, transform.position - (transform.right * 0.25f), transform.rotation);
             }
                 
         }
