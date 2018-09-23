@@ -147,7 +147,7 @@ public class Player_Controller : MonoBehaviour
 
     IEnumerator Death()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
