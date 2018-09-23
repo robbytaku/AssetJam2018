@@ -87,6 +87,9 @@ BoxCollider2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
     oldSize: {x: 0.27, y: 0.09}
 =======
     oldSize: {x: 0.36, y: 0.08}
@@ -103,6 +106,7 @@ BoxCollider2D:
 =======
     oldSize: {x: 0.27, y: 0.09}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
+<<<<<<< HEAD
 =======
     oldSize: {x: 0.35, y: 0.04}
 >>>>>>> parent of a76ff8f... asd
@@ -112,6 +116,8 @@ BoxCollider2D:
 =======
     oldSize: {x: 0.27, y: 0.09}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+=======
+>>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
     newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -182,6 +188,9 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
   m_Sprite: {fileID: 21300000, guid: a43e653876a5c1a489f458a1f080da03, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
@@ -196,6 +205,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: 70f1b71586d1f4e4e9a15799f794342c, type: 3}
 >>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
 =======
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: a43e653876a5c1a489f458a1f080da03, type: 3}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
 =======
@@ -207,6 +217,10 @@ SpriteRenderer:
 =======
   m_Sprite: {fileID: 21300000, guid: a43e653876a5c1a489f458a1f080da03, type: 3}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+=======
+  m_Sprite: {fileID: 21300000, guid: a43e653876a5c1a489f458a1f080da03, type: 3}
+>>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
+>>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
