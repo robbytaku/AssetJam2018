@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Chef_2_The_Vladenning : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
     public float speed;
     public Transform currentPatrolPoint;
     public int currentPatrolIndex;
-    public AudioSource soundGrunt, soundSmash, soundLaugh;
+    public AudioSource soundGrunt, soundSmash, soundLaugh, soundScream;
 	public int health = 5;
     public Vector3 patrolPointDir;
 
@@ -61,8 +62,14 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         }
 
-		if (health == 0)
-			Destroy(gameObject);
+        if (health == 0)
+        {
+            StartCoroutine(Victory());
+
+
+        }
+            
+
 	
     }
     //Sound
@@ -86,6 +93,12 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
             soundSmash.Play();
         }
 
+    }
+
+    IEnumerator Victory()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
 
