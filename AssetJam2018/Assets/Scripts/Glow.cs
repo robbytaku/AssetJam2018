@@ -26,8 +26,9 @@ public class Glow : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log(distance);
 
-        distance = 
+        distance = (chefTransform.position.x - transform.position.x) + 5.8f;
 
         if (player.position.x >= leftEdge && player.position.x <= rightEdge && hidden == false)
             interact = true;
@@ -43,15 +44,17 @@ public class Glow : MonoBehaviour
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
             {
                 
+                if (distance > 0f && chef.currentPatrolIndex == 0)
+                {
+
+                }
 
                 doorClose.Play();
                 hidden = false;
                 playerSprite.enabled = true;
                 playerCollider.enabled = true;
                 controller.movementSpeed = 1f;
-
-                
-                    
+  
 
             }
         }

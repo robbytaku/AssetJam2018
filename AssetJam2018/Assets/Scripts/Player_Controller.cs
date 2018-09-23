@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -132,7 +133,17 @@ public class Player_Controller : MonoBehaviour
             Instantiate(slash, transform.position - (transform.up * 0.01f), transform.rotation);
             Destroy(gameObject);
             Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+            StartCoroutine(Death());
+
         }
 
+        
+
+    }
+
+    IEnumerator Death()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

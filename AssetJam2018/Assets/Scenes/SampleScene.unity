@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 903780245}
   - component: {fileID: 903780248}
   - component: {fileID: 903780249}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: 1st_victim
   m_TagString: Villager
   m_Icon: {fileID: 0}
@@ -7131,11 +7131,13 @@ MonoBehaviour:
   - {fileID: 1472061529}
   - {fileID: 1192416005}
   speed: 0.75
+  currentPatrolPoint: {fileID: 0}
   currentPatrolIndex: 0
   soundGrunt: {fileID: 2105001533}
   soundSmash: {fileID: 496525568}
   soundLaugh: {fileID: 826932142}
   health: 5
+  patrolPointDir: {x: 0, y: 0, z: 0}
 --- !u!50 &1005615045
 Rigidbody2D:
   serializedVersion: 4
