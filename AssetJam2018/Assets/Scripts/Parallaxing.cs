@@ -35,6 +35,10 @@ public class Parallaxing : MonoBehaviour {
 
 			backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, backgroundTargetPos, smoothing * Time.deltaTime);
 		}
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
 		previousCamPos = cam.position;
 	}
 }

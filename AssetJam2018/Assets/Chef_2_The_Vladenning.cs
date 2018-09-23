@@ -69,10 +69,10 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         }
 
-        if (transform.position.x <= -5.85f)
+        if (transform.position.x <= -6f)
             currentPatrolIndex = 0;
 
-        if (transform.position.x >= 8.5f)
+        if (transform.position.x >= 8.6f)
             currentPatrolIndex = 1;
 
 
