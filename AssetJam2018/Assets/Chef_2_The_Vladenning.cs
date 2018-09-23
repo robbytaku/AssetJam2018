@@ -89,7 +89,14 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
 		if (collision.gameObject.tag.Equals("Villager"))
 		{
+			speed += 0.075f;
 			soundSmash.Play();	
+		}
+
+		if (collision.gameObject.tag.Equals("Guy"))
+		{
+			speed += 0.075f;
+			soundSmash.Play();
 		}
 
 	}

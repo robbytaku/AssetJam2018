@@ -9,18 +9,13 @@ public class TemporariDisabler : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		StartCoroutine(waiter());
+		StartCoroutine(Waiter());
 	}
 	
-	IEnumerator waiter()
+	IEnumerator Waiter()
 	{
 		colliderStuff.enabled = false;
 		yield return new WaitForSeconds(2);
 		colliderStuff.enabled = true;
-	}
-
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

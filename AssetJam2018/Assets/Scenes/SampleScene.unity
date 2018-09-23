@@ -490,11 +490,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &32114280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,11 +1084,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &135452734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,11 +1378,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &154188477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2030,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -2451,11 +2443,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &262430855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,6 +2922,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 0
   door: 1
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -4191,11 +4181,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &529301520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4573,11 +4560,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &618317709
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,6 +4816,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 1
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -5367,6 +5352,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -6346,11 +6332,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &899516568
 GameObject:
   m_ObjectHideFlags: 0
@@ -6552,6 +6535,7 @@ GameObject:
   - component: {fileID: 903780245}
   - component: {fileID: 903780248}
   - component: {fileID: 903780249}
+  - component: {fileID: 903780250}
   m_Layer: 0
   m_Name: 1st_victim
   m_TagString: Untagged
@@ -6630,7 +6614,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903780244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.368, y: -0.055, z: -0.217}
+  m_LocalPosition: {x: -6.264, y: -0.055, z: -0.217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6642,7 +6626,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903780244}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6672,6 +6656,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c90c02f5255fd24b87933b29670e678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.25
+  screamSound: {fileID: 790977697}
+  soundSmash: {fileID: 496525568}
+  meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
+  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+--- !u!50 &903780250
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903780244}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1 &912436266
 GameObject:
   m_ObjectHideFlags: 0
@@ -7055,6 +7064,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 1
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -7137,7 +7147,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005615039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.18, y: 0.04, z: -0.132}
+  m_LocalPosition: {x: -7.385, y: 0.04, z: -0.132}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_Children:
   - {fileID: 1708724247}
@@ -7358,6 +7368,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 0
   door: 1
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -7545,11 +7556,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8006,7 +8014,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1192416004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4, y: 0, z: -0.132}
+  m_LocalPosition: {x: -5.983, y: 0, z: -0.132}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8411,6 +8419,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -8679,6 +8688,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -8866,11 +8876,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -8996,6 +9003,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -9183,11 +9191,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -9634,6 +9639,12 @@ MonoBehaviour:
   pitchfork: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
   heavy: {fileID: 21300000, guid: 70f1b71586d1f4e4e9a15799f794342c, type: 3}
   throwSound: {fileID: 875940567}
+  soundSmash: {fileID: 496525568}
+  meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
+  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
+  glow: {fileID: 693671040}
+  glow1: {fileID: 1679403812}
+  glow2: {fileID: 991372199}
 --- !u!1 &1396211319
 GameObject:
   m_ObjectHideFlags: 0
@@ -10053,6 +10064,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -10420,11 +10432,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1600731530
 GameObject:
   m_ObjectHideFlags: 0
@@ -10603,11 +10612,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1601019038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11249,6 +11255,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 1
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -11988,11 +11995,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &1913531810
 GameObject:
   m_ObjectHideFlags: 0
@@ -12242,6 +12246,7 @@ MonoBehaviour:
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
+  hidden: 0
   doorLocked: {fileID: 529301522}
   doorOpen: {fileID: 8751384}
   doorClose: {fileID: 1383485419}
@@ -12429,11 +12434,8 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
-<<<<<<< HEAD
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of c95f10b... good game bois
 --- !u!1 &2035551602
 GameObject:
   m_ObjectHideFlags: 0
@@ -12938,6 +12940,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
+  slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 --- !u!1 &2105001531
 GameObject:
   m_ObjectHideFlags: 0
