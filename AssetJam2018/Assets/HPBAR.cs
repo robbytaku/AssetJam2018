@@ -5,7 +5,7 @@ using UnityEngine;
 public class HPBAR : MonoBehaviour {
 
     public SpriteRenderer spriteRenderer;
-    public Sprite sprite0, sprite1, sprite2, sprite3, sprite4, sprite5;
+    public Sprite sprite0, sprite1, sprite2, sprite3, sprite4, sprite5, sprite6;
     public Chef_2_The_Vladenning chef;
 
 	// Use this for initialization
@@ -24,6 +24,8 @@ public class HPBAR : MonoBehaviour {
         if (chef.health == 1)
             spriteRenderer.sprite = sprite1;
         if (chef.health == 0)
+            spriteRenderer.sprite = sprite0;
+        if (chef.health == -1)
             spriteRenderer.sprite = sprite0;
 
 
