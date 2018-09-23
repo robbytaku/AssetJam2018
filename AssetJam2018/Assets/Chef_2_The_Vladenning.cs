@@ -52,23 +52,11 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         }
 
-        float distanceToTarget = Vector3.Distance(transform.position, target.position);
-        if(distanceToTarget < chaseRange)
-        {
-            Vector3 targetDir = target.position - transform.position;
-            float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg - 90f;
-            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 100);
-
-            transform.Translate(Vector3.up * Time.deltaTime * speed);
-
-        }
-      
-
 		if (health == 0)
 			Destroy(gameObject);
 	
     }
+    //Sound
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.gameObject.tag.Equals("Projectile"))
