@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: a9fd522b9fd121e4986530e79fda92e9
+guid: c6e42e2cf7a7d0744a19d8fbda6a3373
 TextureImporter:
   fileIDToRecycleName:
-    21300000: woman-idle_0
-    21300002: woman-idle_1
-    21300004: woman-idle_2
-    21300006: woman-idle_3
-    21300008: woman-idle_4
-    21300010: woman-idle_5
-    21300012: woman-idle_6
+    21300000: woman-idle_green_0
+    21300002: woman-idle_green_1
+    21300004: woman-idle_green_2
+    21300006: woman-idle_green_3
+    21300008: woman-idle_green_4
+    21300010: woman-idle_green_5
+    21300012: woman-idle_green_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -91,7 +91,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: woman-idle_0
+      name: woman-idle_green_0
       rect:
         serializedVersion: 2
         x: 8
@@ -105,13 +105,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d76bcc73043c5114fa28adfde78b3872
+      spriteID: ebb99fe5b922dd34589232ebc39c7df6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_1
+      name: woman-idle_green_1
       rect:
         serializedVersion: 2
         x: 46
@@ -125,13 +125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3679b8becd7ea7c4887f3f8ed53ed033
+      spriteID: f2608a495b28d364bb7f5675125d34a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_2
+      name: woman-idle_green_2
       rect:
         serializedVersion: 2
         x: 84
@@ -145,13 +145,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34283d2070b2dd74a85b232d2fc91487
+      spriteID: 2e9cc4a0dd5af5c4b929c42d6bd5582a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_3
+      name: woman-idle_green_3
       rect:
         serializedVersion: 2
         x: 122
@@ -165,13 +165,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9576dfb1471026419ac2b5605564300
+      spriteID: 4cfdc559cbf472849999693fc615e06b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_4
+      name: woman-idle_green_4
       rect:
         serializedVersion: 2
         x: 159
@@ -185,13 +185,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8030578c10811b24e98475b2bd3e713e
+      spriteID: adb2279a8159bed42864c6bf6cc6292d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_5
+      name: woman-idle_green_5
       rect:
         serializedVersion: 2
         x: 194
@@ -205,13 +205,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56b4d714c51c9e4c9ccc5a51301ec46
+      spriteID: a99dd90617adbd844922e1c259a8a3fe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: woman-idle_6
+      name: woman-idle_green_6
       rect:
         serializedVersion: 2
         x: 228
@@ -225,7 +225,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d851c0c2f63a047b347ce98c980d82
+      spriteID: ace50f814bcfda946b161208c5fe1892
       vertices: []
       indices: 
       edges: []
@@ -233,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 765c32c8ae6d4eb4682f984050af7ea0
+    spriteID: e2a3006f1c209b640ade1ba0c3a83a63
     vertices: []
     indices: 
     edges: []
