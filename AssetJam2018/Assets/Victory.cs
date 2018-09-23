@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Victory : MonoBehaviour {
 
-    public void victory()
-    {
-        SceneManager.LoadScene(0);
+     void Update() { 
+         if (Input.GetKeyDown("r")) {
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 4));
+        }
+         if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
 }

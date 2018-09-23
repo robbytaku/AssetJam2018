@@ -6,9 +6,16 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour {
 
 
-    public void gameOver()
+     void Update()
     {
-        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 3));
+        if (Input.GetKeyDown("r")) {
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 3));
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }   
     }
+
 
 }
