@@ -50,15 +50,35 @@ public class Glow : MonoBehaviour
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
             {
                 if (weapon == 1 && controller.weapon == 0)
+                {
                     controller.weapon = 1;
+                    weapon = 0;
+                }
+                    
                 if (weapon == 2 && controller.weapon == 0)
+                {
                     controller.weapon = 2;
+                    weapon = 0;
+                }
+                    
                 if (weapon == 3 && controller.weapon == 0)
+                {
                     controller.weapon = 3;
+                    weapon = 0;
+                }
+                    
                 if (weapon == 4 && controller.weapon == 0)
+                {
                     controller.weapon = 4;
+                    weapon = 0;
+                }
+                    
                 if (weapon == 5 && controller.weapon == 0)
+                {
                     controller.weapon = 5;
+                    weapon = 0;
+                }
+                    
 
                 if (door == true && unlocked == true)
                 {

@@ -43,6 +43,14 @@ public class Player_Controller : MonoBehaviour
             myAnimator.SetInteger("Weapon", 4);
         if (weapon == 5)
             myAnimator.SetInteger("Weapon", 5);
+        if (weapon > 0)
+        {
+            if(Input.GetKeyDown("space")) {
+                weapon = 0;
+
+            }
+                
+        }
     }
     private void HandleMovement(float horizontal)
     {
