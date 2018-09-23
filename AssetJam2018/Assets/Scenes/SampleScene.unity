@@ -469,6 +469,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -476,6 +477,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &32114280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1038,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -1041,6 +1046,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &135452734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1307,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -1306,6 +1315,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &154188477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,6 +2359,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -2354,6 +2367,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &262430855
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,6 +3960,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -3951,6 +3968,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &529301520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4307,6 +4327,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -4314,6 +4335,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &618317709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,6 +5474,7 @@ AudioSource:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Volume: 1
 =======
   m_Volume: 0.4
@@ -5460,6 +5485,9 @@ AudioSource:
 =======
   m_Volume: 1
 >>>>>>> parent of a76ff8f... asd
+=======
+  m_Volume: 0.4
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6098,6 +6126,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -6105,6 +6134,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &899516568
 GameObject:
   m_ObjectHideFlags: 0
@@ -6942,11 +6974,6 @@ MonoBehaviour:
   - {fileID: 1472061529}
   - {fileID: 1192416005}
   speed: 0.75
-  target: {fileID: 1383622151}
-  chaseRange: 2
-  attackRange: 0
-  damage: 0
-  attackDelay: 0
 --- !u!1 &1009767060
 GameObject:
   m_ObjectHideFlags: 0
@@ -7238,6 +7265,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -7245,6 +7273,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8540,6 +8571,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -8547,6 +8579,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -8838,6 +8873,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -8845,6 +8881,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -10055,6 +10094,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -10062,6 +10102,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1600731530
 GameObject:
   m_ObjectHideFlags: 0
@@ -10219,6 +10262,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -10226,6 +10270,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1601019038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11477,6 +11524,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -11484,6 +11532,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &1913531810
 GameObject:
   m_ObjectHideFlags: 0
@@ -11927,6 +11978,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -11934,6 +11986,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &2035551602
 GameObject:
   m_ObjectHideFlags: 0
@@ -12417,6 +12472,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -12424,6 +12480,9 @@ MonoBehaviour:
 >>>>>>> parent of a76ff8f... asd
 =======
 >>>>>>> parent of a76ff8f... asd
+=======
+  screamSound: {fileID: 790977697}
+>>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
 --- !u!1 &2106714251
 GameObject:
   m_ObjectHideFlags: 0
