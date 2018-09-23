@@ -21,6 +21,8 @@ public class Player_Controller : MonoBehaviour
 	public AudioSource throwSound;
     public AudioSource soundSmash;
     public GameObject meat, slash;
+    public SpriteRenderer spriteRenderer;
+    public BoxCollider2D boxCollider2D;
 
     void Start()
     {
@@ -131,10 +133,12 @@ public class Player_Controller : MonoBehaviour
         {
             soundSmash.Play();
             Instantiate(slash, transform.position - (transform.up * 0.01f), transform.rotation);
-            Destroy(gameObject);
+            movementSpeed = 0;
+            spriteRenderer.enabled = false;
+            boxCollider2D.enabled = false;
             Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            // StartCoroutine(Death());
+            StartCoroutine(Death());
 
         }
 
@@ -142,9 +146,9 @@ public class Player_Controller : MonoBehaviour
 
     }
 
-    //IEnumerator Death()
-    //{
-     //   yield return new WaitForSeconds(1f);
-     //   SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    //}
+    IEnumerator Death()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

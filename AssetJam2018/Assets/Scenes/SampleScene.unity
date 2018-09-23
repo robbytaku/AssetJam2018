@@ -9492,6 +9492,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   slash: {fileID: 1954013968620296, guid: 83ef11b5dd44ce24f8f5e1eaa659c0e4, type: 2}
+  spriteRenderer: {fileID: 1383622150}
+  boxCollider2D: {fileID: 1383622153}
 --- !u!1 &1396211319
 GameObject:
   m_ObjectHideFlags: 0
