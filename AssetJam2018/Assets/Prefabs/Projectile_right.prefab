@@ -89,6 +89,7 @@ BoxCollider2D:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
     oldSize: {x: 0.27, y: 0.09}
@@ -122,6 +123,9 @@ BoxCollider2D:
 =======
     oldSize: {x: 0.36, y: 0.08}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+    oldSize: {x: 0.35, y: 0.04}
+>>>>>>> parent of c95f10b... good game bois
     newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -190,6 +194,7 @@ SpriteRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
   m_Sprite: {fileID: 21300000, guid: a43e653876a5c1a489f458a1f080da03, type: 3}
@@ -225,6 +230,9 @@ SpriteRenderer:
 =======
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+  m_Sprite: {fileID: 21300000, guid: 70f1b71586d1f4e4e9a15799f794342c, type: 3}
+>>>>>>> parent of c95f10b... good game bois
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
