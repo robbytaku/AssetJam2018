@@ -54,7 +54,7 @@ public class Player_Controller : MonoBehaviour
 
         if (weapon > 0)
         {
-            if(Input.GetKeyDown("space") && facingRight == true) {
+            if(Input.GetKey("space") && facingRight == true) {
 
                 if (weapon == 1)
                     spriteRenderer_right.sprite = bottle;
@@ -75,7 +75,7 @@ public class Player_Controller : MonoBehaviour
                 weapon = 0;
 
             }
-            if(Input.GetKeyDown("space") && facingRight == false)
+            if(Input.GetKey("space") && facingRight == false)
             {
 
                 if (weapon == 1)
