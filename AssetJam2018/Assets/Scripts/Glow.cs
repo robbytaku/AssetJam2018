@@ -20,9 +20,17 @@ public class Glow : MonoBehaviour
     public bool door = false;
     private bool hidden = false;
 	public AudioSource doorLocked, doorOpen, doorClose, weaponBottle, weaponKnife, weaponBlade, weaponPitchfork, weaponHeavy, emptyBox;
+    public Chef_2_The_Vladenning chef;
+    public Transform chefTransform;
+    private float distance;
 
     private void Update()
     {
+        
+
+        distance = (chefTransform.position.x - player.position.x);
+
+        Debug.Log(chef.currentPatrolIndex);
 
         if (player.position.x >= leftEdge && player.position.x <= rightEdge && hidden == false)
             interact = true;
@@ -37,11 +45,23 @@ public class Glow : MonoBehaviour
             controller.movementSpeed = 0f;
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up")))
             {
-				doorClose.Play();
+                
+                if (distance > 0f && chef.currentPatrolIndex == 0)
+                {
+                    chef.currentPatrolIndex = 1;
+                }
+
+                if (distance < 0f && chef.currentPatrolIndex == 1)
+                {
+                    chef.currentPatrolIndex = 0;
+                }
+
+                doorClose.Play();
                 hidden = false;
                 playerSprite.enabled = true;
                 playerCollider.enabled = true;
                 controller.movementSpeed = 1f;
+  
 
             }
         }

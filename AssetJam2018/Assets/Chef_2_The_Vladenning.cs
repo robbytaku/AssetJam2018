@@ -1,21 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Chef_2_The_Vladenning : MonoBehaviour {
 
     public Transform[] patrolPoints;
     public float speed;
-    Transform currentPatrolPoint;
-    int currentPatrolIndex;
-	public AudioSource soundGrunt, soundSmash;
+    public Transform currentPatrolPoint;
+    public int currentPatrolIndex;
+    public AudioSource soundGrunt, soundSmash, soundLaugh, soundScream;
 	public int health = 5;
+    public Vector3 patrolPointDir;
 
 
     void Start()
     {
         currentPatrolIndex = 0;
         currentPatrolPoint = patrolPoints[currentPatrolIndex];
+        StartCoroutine(Laugh());
+    }
+
+    IEnumerator Laugh()
+    {
+        yield return new WaitForSeconds(1.8f);
+        soundLaugh.Play();
     }
 
     void Update()
@@ -36,15 +45,16 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
         }
 
 
-        Vector3 patrolPointDir = currentPatrolPoint.position - transform.position;
+
+        patrolPointDir = currentPatrolPoint.position - transform.position;
         Vector3 newScale;
-       if(patrolPointDir.x < 0f)
+       if(currentPatrolIndex == 1)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
             newScale = new Vector3(-1.3f, 1.3f, 1f);
             transform.localScale = newScale;
         }
-        if (patrolPointDir.x > 0f)
+        if (currentPatrolIndex == 0)
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
             newScale = new Vector3(1.3f, 1.3f, 1f);
@@ -52,8 +62,14 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         }
 
-		if (health == 0)
-			Destroy(gameObject);
+        if (health == 0)
+        {
+            StartCoroutine(Victory());
+
+
+        }
+            
+
 	
     }
     //Sound
@@ -67,16 +83,22 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
 		if (collision.gameObject.tag.Equals("Villager"))
 		{
-            speed += 0.075f;
+            speed += 0.05f;
 			soundSmash.Play();	
 		}
 
         if (collision.gameObject.tag.Equals("Guy"))
         {
-            speed += 0.075f;
+            speed += 0.05f;
             soundSmash.Play();
         }
 
+    }
+
+    IEnumerator Victory()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
 
