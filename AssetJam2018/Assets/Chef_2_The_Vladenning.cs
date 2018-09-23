@@ -65,12 +65,21 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
         if (health == 0)
         {
             StartCoroutine(Victory());
+            speed = 0;
+            soundScream.Play();
+
 
 
         }
-            
 
-	
+        if (transform.position.x <= -5.85f)
+            currentPatrolIndex = 0;
+
+        if (transform.position.x >= 8.5f)
+            currentPatrolIndex = 1;
+
+
+
     }
     //Sound
 	private void OnCollisionEnter2D(Collision2D collision)
