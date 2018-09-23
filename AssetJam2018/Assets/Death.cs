@@ -5,9 +5,6 @@ using UnityEngine;
 public class Death : MonoBehaviour {
 
 	public GameObject meat;
-	public AudioSource screamSound;
-	public AudioSource screamSound;
-	public AudioSource screamSound;
 	public AudioSource screamSound, soundSmash;
 	public GameObject slash;
 
