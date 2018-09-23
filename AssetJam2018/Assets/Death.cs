@@ -37,7 +37,11 @@ public class Death : MonoBehaviour {
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
+=======
+>>>>>>> parent of c95f10b... good game bois
+>>>>>>> parent of 4625f86... Revert "Revert "good game bois""
 =======
 >>>>>>> parent of c95f10b... good game bois
 >>>>>>> parent of 4625f86... Revert "Revert "good game bois""

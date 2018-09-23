@@ -51,8 +51,7 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
             transform.localScale = newScale;
 
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
         if(distanceToTarget < chaseRange)
         {
@@ -66,13 +65,9 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
         }
       
 
-=======
 		if (health == 0)
 			Destroy(gameObject);
 	
->>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
-=======
->>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
     }
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
