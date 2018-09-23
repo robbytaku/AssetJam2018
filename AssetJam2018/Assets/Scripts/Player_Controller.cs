@@ -17,6 +17,7 @@ public class Player_Controller : MonoBehaviour
     public int weapon = 0;
     public SpriteRenderer spriteRenderer_left, spriteRenderer_right;
     public Sprite bottle, knife, blade, pitchfork, heavy;
+	public AudioSource throwSound;
 
     void Start()
     {
@@ -55,7 +56,7 @@ public class Player_Controller : MonoBehaviour
         if (weapon > 0)
         {
             if(Input.GetKey("space") && facingRight == true) {
-
+				throwSound.Play();
                 if (weapon == 1)
                     spriteRenderer_right.sprite = bottle;
 
@@ -77,8 +78,8 @@ public class Player_Controller : MonoBehaviour
             }
             if(Input.GetKey("space") && facingRight == false)
             {
-
-                if (weapon == 1)
+				throwSound.Play();
+				if (weapon == 1)
                     spriteRenderer_left.sprite = bottle;
 
                 if (weapon == 2)

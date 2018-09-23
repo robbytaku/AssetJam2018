@@ -19,7 +19,7 @@ public class Glow : MonoBehaviour
     public bool unlocked = true;
     public bool door = false;
     private bool hidden = false;
-	public AudioSource doorLocked, doorOpen, doorClose;
+	public AudioSource doorLocked, doorOpen, doorClose, weaponBottle, weaponKnife, weaponBlade, weaponPitchfork, weaponHeavy;
 
     private void Update()
     {
@@ -55,31 +55,36 @@ public class Glow : MonoBehaviour
 
 				if (weapon == 1 && controller.weapon == 0)
                 {
+					weaponBottle.Play();
                     controller.weapon = 1;
                     weapon = 0;
                 }
                     
                 if (weapon == 2 && controller.weapon == 0)
                 {
-                    controller.weapon = 2;
+					weaponKnife.Play();
+					controller.weapon = 2;
                     weapon = 0;
                 }
                     
                 if (weapon == 3 && controller.weapon == 0)
                 {
-                    controller.weapon = 3;
+					weaponBlade.Play();
+					controller.weapon = 3;
                     weapon = 0;
                 }
                     
                 if (weapon == 4 && controller.weapon == 0)
                 {
-                    controller.weapon = 4;
+					weaponPitchfork.Play();
+					controller.weapon = 4;
                     weapon = 0;
                 }
                     
                 if (weapon == 5 && controller.weapon == 0)
                 {
-                    controller.weapon = 5;
+					weaponHeavy.Play();
+					controller.weapon = 5;
                     weapon = 0;
                 }
                     
