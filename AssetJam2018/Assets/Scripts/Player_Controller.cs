@@ -15,6 +15,8 @@ public class Player_Controller : MonoBehaviour
     public bool facingRight;
     public Transform firePoint;
     public int weapon = 0;
+    public SpriteRenderer spriteRenderer_left, spriteRenderer_right;
+    public Sprite bottle, knife, blade, pitchfork, heavy;
 
     void Start()
     {
@@ -34,26 +36,65 @@ public class Player_Controller : MonoBehaviour
 
         if (weapon == 0)
             myAnimator.SetInteger("Weapon", 0);
+
         if (weapon == 1)
             myAnimator.SetInteger("Weapon", 1);
+
         if (weapon == 2)
             myAnimator.SetInteger("Weapon", 2);
+
         if (weapon == 3)
             myAnimator.SetInteger("Weapon", 3);
+
         if (weapon == 4)
             myAnimator.SetInteger("Weapon", 4);
+
         if (weapon == 5)
             myAnimator.SetInteger("Weapon", 5);
+
         if (weapon > 0)
         {
             if(Input.GetKeyDown("space") && facingRight == true) {
-                weapon = 0;
+
+                if (weapon == 1)
+                    spriteRenderer_right.sprite = bottle;
+
+                if (weapon == 2)
+                    spriteRenderer_right.sprite = knife;
+
+                if (weapon == 3)
+                    spriteRenderer_right.sprite = blade;
+
+                if (weapon == 4)
+                    spriteRenderer_right.sprite = pitchfork;
+
+                if (weapon == 5)
+                    spriteRenderer_right.sprite = heavy;
+
                 Instantiate(projectile_right, transform.position + (transform.right * 0.25f), transform.rotation);
+                weapon = 0;
+
             }
             if(Input.GetKeyDown("space") && facingRight == false)
             {
-                weapon = 0;
+
+                if (weapon == 1)
+                    spriteRenderer_left.sprite = bottle;
+
+                if (weapon == 2)
+                    spriteRenderer_left.sprite = knife;
+
+                if (weapon == 3)
+                    spriteRenderer_left.sprite = blade;
+
+                if (weapon == 4)
+                    spriteRenderer_left.sprite = pitchfork;
+
+                if (weapon == 5)
+                    spriteRenderer_left.sprite = heavy;
+
                 Instantiate(projectile_left, transform.position - (transform.right * 0.25f), transform.rotation);
+                weapon = 0;
             }
                 
         }

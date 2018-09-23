@@ -52,7 +52,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 1405464406411058}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
@@ -80,7 +80,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.12, y: 0.04}
-    newSize: {x: 0.12, y: 0.04}
+    newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -102,6 +102,7 @@ MonoBehaviour:
   speed: {x: -2.5, y: 0}
   delay: 3
   controller: {fileID: 0}
+  spriteRenderer: {fileID: 212506852648079860}
 --- !u!212 &212506852648079860
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -142,7 +143,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.12, y: 0.04}
+  m_Size: {x: 0.14, y: 0.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

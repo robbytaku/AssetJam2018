@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour {
     public float delay;
     public Player_Controller controller;
     Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
 	void Start () {
