@@ -19,7 +19,7 @@ public class Glow : MonoBehaviour
     public bool unlocked = true;
     public bool door = false;
     private bool hidden = false;
-	public AudioSource doorLocked, doorOpen, doorClose, weaponBottle, weaponKnife, weaponBlade, weaponPitchfork, weaponHeavy;
+	public AudioSource doorLocked, doorOpen, doorClose, weaponBottle, weaponKnife, weaponBlade, weaponPitchfork, weaponHeavy, emptyBox;
 
     private void Update()
     {
@@ -52,6 +52,8 @@ public class Glow : MonoBehaviour
             if (Input.GetKeyDown("w") || (Input.GetKeyDown("up"))){
 				if (unlocked == false)
 					doorLocked.Play();
+				if (weapon == 0 && door == false)
+					emptyBox.Play();
 
 				if (weapon == 1 && controller.weapon == 0)
                 {
