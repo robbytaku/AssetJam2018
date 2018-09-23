@@ -778,6 +778,7 @@ GameObject:
   - component: {fileID: 130060396}
   - component: {fileID: 130060397}
   - component: {fileID: 130060398}
+  - component: {fileID: 130060399}
   m_Layer: 0
   m_Name: Left_wall_2
   m_TagString: Untagged
@@ -869,6 +870,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &130060399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 130060395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567f044055c5c1b488dd67c0ec037590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderStuff: {fileID: 130060398}
 --- !u!1 &131613430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +1048,7 @@ GameObject:
   - component: {fileID: 135452735}
   - component: {fileID: 135452736}
   - component: {fileID: 135452737}
+  - component: {fileID: 135452738}
   m_Layer: 0
   m_Name: Left_wall_1
   m_TagString: Untagged
@@ -1126,6 +1140,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &135452738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135452734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567f044055c5c1b488dd67c0ec037590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderStuff: {fileID: 135452737}
 --- !u!1 &139543109
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,7 +3581,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e021172e1f1092a4e8797d6b20c87be4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6194,6 +6220,7 @@ GameObject:
   - component: {fileID: 899661825}
   - component: {fileID: 899661826}
   - component: {fileID: 899661827}
+  - component: {fileID: 899661828}
   m_Layer: 0
   m_Name: Left_wall_4
   m_TagString: Untagged
@@ -6285,6 +6312,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &899661828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 899661824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567f044055c5c1b488dd67c0ec037590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderStuff: {fileID: 899661827}
 --- !u!1 &903780244
 GameObject:
   m_ObjectHideFlags: 0
@@ -6387,7 +6426,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903780244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -6957,19 +6996,19 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1005615039}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!1 &1009767060
 GameObject:
   m_ObjectHideFlags: 0
@@ -7705,7 +7744,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point 1
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9526,7 +9565,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point 2
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11308,6 +11347,7 @@ GameObject:
   - component: {fileID: 1819894877}
   - component: {fileID: 1819894878}
   - component: {fileID: 1819894879}
+  - component: {fileID: 1819894880}
   m_Layer: 0
   m_Name: Left_wall_3
   m_TagString: Untagged
@@ -11399,6 +11439,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1819894880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1819894876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567f044055c5c1b488dd67c0ec037590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliderStuff: {fileID: 1819894879}
 --- !u!1 &1882279330
 GameObject:
   m_ObjectHideFlags: 0

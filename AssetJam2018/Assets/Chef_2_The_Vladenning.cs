@@ -65,7 +65,6 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
 		if (collision.gameObject.tag.Equals("Villager"))
 		{
-			Debug.Log("whats up gamers");
 			soundSmash.Play();	
 		}
 
