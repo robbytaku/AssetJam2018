@@ -79,7 +79,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
     oldSize: {x: 0.36, y: 0.08}
+=======
+    oldSize: {x: 0.12, y: 0.04}
+>>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
     newSize: {x: 0.14, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -103,6 +107,10 @@ MonoBehaviour:
   delay: 3
   controller: {fileID: 0}
   spriteRenderer: {fileID: 212506852648079860}
+  soundScream: {fileID: 82434290071276114, guid: f1a926a9805de734c8c3154b995dbb52,
+    type: 2}
+  soundGrunt: {fileID: 82362279948573702, guid: 3669a70f9d58a61428a8f284db457ad6,
+    type: 2}
 --- !u!212 &212506852648079860
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -138,7 +146,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 87e1f3040f1700349b32e57c875905eb, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 1534b6ae495cf2c409c05c829afda7fc, type: 3}
+>>>>>>> 989c0db4a3030b3b4887460fcd26296b63edbf13
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

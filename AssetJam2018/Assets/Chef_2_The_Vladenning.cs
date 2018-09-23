@@ -47,13 +47,13 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
        if(patrolPointDir.x < 0f)
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
-            newScale = new Vector3(-1, 1, 1);
+            newScale = new Vector3(-1.3f, 1.3f, 1f);
             transform.localScale = newScale;
         }
         if (patrolPointDir.x > 0f)
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
-            newScale = new Vector3(1, 1, 1);
+            newScale = new Vector3(1.3f, 1.3f, 1f);
             transform.localScale = newScale;
 
         }
