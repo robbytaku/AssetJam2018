@@ -10,11 +10,12 @@ public class Chef : MonoBehaviour
     float walkingDirection = 1.0f;
     Vector2 walkAmount;
     float originalX; // Original float value
+    Transform player;
 
 
     void Start()
     {
-    this.originalX = this.transform.position.x;
+        this.originalX = this.transform.position.x;
     }
 
     // Update is called once per frame
