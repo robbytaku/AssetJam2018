@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9808d24659788bf42a43c4283096ba8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meat: {fileID: 0}
+  meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   screamSound: {fileID: 790977697}
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1954013968620296, guid: 83ef11b5dd44ce24f8f5e1eaa659c0e4, type: 2}
@@ -1970,6 +1970,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &245571315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2840,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &368532369
 GameObject:
   m_ObjectHideFlags: 0
@@ -4685,6 +4689,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &703907112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5220,6 +5226,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &771342339
 GameObject:
   m_ObjectHideFlags: 0
@@ -5662,6 +5670,130 @@ Transform:
   m_Father: {fileID: 771772578}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &826932140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826932141}
+  - component: {fileID: 826932142}
+  m_Layer: 0
+  m_Name: Laugh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &826932141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 826932140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1490412192}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &826932142
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 826932140}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f18d687c2e6c1a843bf73347f2ff1327, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 16.672863
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &841397321
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,7 +6477,7 @@ GameObject:
   - component: {fileID: 903780249}
   m_Layer: 0
   m_Name: 1st_victim
-  m_TagString: Untagged
+  m_TagString: Villager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6464,6 +6596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSmash: {fileID: 496525568}
+  screamSound: {fileID: 790977697}
   meat: {fileID: 1792605232936468, guid: 603c0b63ffb726641bb430bcf1d3cc6c, type: 2}
   slash: {fileID: 1954013968620296, guid: 83ef11b5dd44ce24f8f5e1eaa659c0e4, type: 2}
 --- !u!1 &912436266
@@ -6858,6 +6991,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1005615039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6996,8 +7131,10 @@ MonoBehaviour:
   - {fileID: 1472061529}
   - {fileID: 1192416005}
   speed: 0.75
+  currentPatrolIndex: 0
   soundGrunt: {fileID: 2105001533}
   soundSmash: {fileID: 496525568}
+  soundLaugh: {fileID: 826932142}
   health: 5
 --- !u!50 &1005615045
 Rigidbody2D:
@@ -7153,6 +7290,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1017979574
 GameObject:
   m_ObjectHideFlags: 0
@@ -8167,7 +8306,7 @@ MonoBehaviour:
   controller: {fileID: 1383622155}
   leftEdge: 3.4
   rightEdge: 3.75
-  weapon: 0
+  weapon: 1
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
@@ -8180,6 +8319,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1263105423
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,6 +8589,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1326573249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8726,7 +8869,7 @@ MonoBehaviour:
   controller: {fileID: 1383622155}
   leftEdge: -5
   rightEdge: -4.2
-  weapon: 1
+  weapon: 0
   playerCollider: {fileID: 1383622153}
   unlocked: 1
   door: 0
@@ -8739,6 +8882,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1375041933
 GameObject:
   m_ObjectHideFlags: 0
@@ -9636,6 +9781,8 @@ Transform:
   - {fileID: 790977696}
   - {fileID: 2105001532}
   - {fileID: 496525567}
+  - {fileID: 826932141}
+  - {fileID: 1760335921}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9773,6 +9920,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1506633454
 GameObject:
   m_ObjectHideFlags: 0
@@ -10917,6 +11066,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1699764192
 GameObject:
   m_ObjectHideFlags: 0
@@ -11205,6 +11356,130 @@ Transform:
   m_Father: {fileID: 771772578}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1760335920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760335921}
+  - component: {fileID: 1760335922}
+  m_Layer: 0
+  m_Name: Door_Close (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760335921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760335920}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1490412192}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1760335922
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1760335920}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2bf3869ac037c544fbc547a249539cd9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.6
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 18.082214
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1762906680
 GameObject:
   m_ObjectHideFlags: 0
@@ -11884,6 +12159,8 @@ MonoBehaviour:
   weaponPitchfork: {fileID: 884539415}
   weaponHeavy: {fileID: 1132676633}
   emptyBox: {fileID: 1210229145}
+  chef: {fileID: 1005615044}
+  chefTransform: {fileID: 1005615041}
 --- !u!1 &1974386120
 GameObject:
   m_ObjectHideFlags: 0

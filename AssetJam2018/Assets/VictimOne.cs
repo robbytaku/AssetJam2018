@@ -6,7 +6,7 @@ public class VictimOne : MonoBehaviour
 {
 
 
-    public AudioSource soundSmash;
+    public AudioSource soundSmash, screamSound;
     public GameObject meat, slash;
 
     void Update()
@@ -25,6 +25,12 @@ public class VictimOne : MonoBehaviour
             Instantiate(slash, transform.position - (transform.up * 0.01f), transform.rotation);
             Destroy(gameObject);
             Instantiate(meat, transform.position - (transform.up * 0.1f), transform.rotation);
+        }
+        if (collision.gameObject.tag.Equals("Projectile"))
+        {
+            screamSound.Play();
+            Destroy(gameObject);
+            Instantiate(meat, transform.position - (transform.up * 0.08f), transform.rotation);
         }
     }
 }

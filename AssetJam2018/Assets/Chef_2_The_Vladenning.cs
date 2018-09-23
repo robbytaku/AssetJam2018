@@ -6,16 +6,24 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
     public Transform[] patrolPoints;
     public float speed;
-    Transform currentPatrolPoint;
-    int currentPatrolIndex;
-	public AudioSource soundGrunt, soundSmash;
+    public Transform currentPatrolPoint;
+    public int currentPatrolIndex;
+    public AudioSource soundGrunt, soundSmash, soundLaugh;
 	public int health = 5;
+    public Vector3 patrolPointDir;
 
 
     void Start()
     {
         currentPatrolIndex = 0;
         currentPatrolPoint = patrolPoints[currentPatrolIndex];
+        StartCoroutine(Laugh());
+    }
+
+    IEnumerator Laugh()
+    {
+        yield return new WaitForSeconds(1.8f);
+        soundLaugh.Play();
     }
 
     void Update()
@@ -36,7 +44,8 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
         }
 
 
-        Vector3 patrolPointDir = currentPatrolPoint.position - transform.position;
+
+        patrolPointDir = currentPatrolPoint.position - transform.position;
         Vector3 newScale;
        if(patrolPointDir.x < 0f)
         {
