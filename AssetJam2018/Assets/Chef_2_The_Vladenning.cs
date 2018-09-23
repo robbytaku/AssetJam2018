@@ -9,6 +9,14 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
     Transform currentPatrolPoint;
     int currentPatrolIndex;
 
+    public Transform target;
+    public float chaseRange;
+
+    public float attackRange;
+    public int damage;
+    private float lastAttacktime;
+    public float attackDelay; 
+
 
     void Start()
     {
@@ -49,6 +57,19 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
             transform.localScale = newScale;
 
         }
+        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+        if(distanceToTarget < chaseRange)
+        {
+            Vector3 targetDir = target.position - transform.position;
+            float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg - 90f;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 100);
+
+            transform.Translate(Vector3.up * Time.deltaTime * speed);
+
+        }
+      
+
     }
 
   
