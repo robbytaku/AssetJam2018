@@ -472,6 +472,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -482,6 +485,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -492,6 +496,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &32114280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1072,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -1076,6 +1085,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -1086,6 +1096,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &135452734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1372,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -1370,6 +1385,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -1380,6 +1396,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &154188477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +2443,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -2435,6 +2456,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -2445,6 +2467,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &262430855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4187,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -4173,6 +4200,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -4183,6 +4211,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &529301520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4542,6 +4572,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -4552,6 +4585,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -4562,6 +4596,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &618317709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,6 +5687,9 @@ AudioSource:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
   m_Volume: 1
 =======
   m_Volume: 0.4
@@ -5664,6 +5703,7 @@ AudioSource:
 =======
   m_Volume: 0.4
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
   m_Volume: 1
 =======
@@ -5673,6 +5713,8 @@ AudioSource:
 =======
   m_Volume: 0.4
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6314,6 +6356,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -6324,6 +6369,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -6334,6 +6380,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &899516568
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,6 +7261,7 @@ MonoBehaviour:
   - {fileID: 1192416005}
   speed: 0.75
 <<<<<<< HEAD
+<<<<<<< HEAD
   target: {fileID: 1383622151}
   chaseRange: 2
   attackRange: 0
@@ -7243,6 +7292,8 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 6
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1009767060
 GameObject:
   m_ObjectHideFlags: 0
@@ -7538,6 +7589,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -7548,6 +7602,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -7558,6 +7613,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1050612148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8858,6 +8915,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -8868,6 +8928,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -8878,6 +8939,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1329461257
 GameObject:
   m_ObjectHideFlags: 0
@@ -9173,6 +9236,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -9183,6 +9249,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -9193,6 +9260,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1375843821
 GameObject:
   m_ObjectHideFlags: 0
@@ -10414,6 +10483,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -10424,6 +10496,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -10434,6 +10507,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1600731530
 GameObject:
   m_ObjectHideFlags: 0
@@ -10594,6 +10669,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -10604,6 +10682,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -10614,6 +10693,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1601019038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11977,6 +12058,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -11987,6 +12071,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -11997,6 +12082,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &1913531810
 GameObject:
   m_ObjectHideFlags: 0
@@ -12416,6 +12503,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -12426,6 +12516,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -12436,6 +12527,8 @@ MonoBehaviour:
   soundSmash: {fileID: 496525568}
   slash: {fileID: 1477949982218460, guid: 76230b60c1049124da9472f71886f64f, type: 2}
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &2035551602
 GameObject:
   m_ObjectHideFlags: 0
@@ -12922,6 +13015,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -12932,6 +13028,7 @@ MonoBehaviour:
 =======
   screamSound: {fileID: 790977697}
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
   screamSound: {fileID: 790977697}
@@ -13066,6 +13163,8 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 --- !u!1 &2106714251
 GameObject:
   m_ObjectHideFlags: 0

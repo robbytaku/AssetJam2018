@@ -11,14 +11,6 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 	public AudioSource soundGrunt, soundSmash;
 	public int health = 5;
 
-    public Transform target;
-    public float chaseRange;
-
-    public float attackRange;
-    public int damage;
-    private float lastAttacktime;
-    public float attackDelay; 
-
 
     void Start()
     {
@@ -60,6 +52,7 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
         if(distanceToTarget < chaseRange)
         {
@@ -78,6 +71,8 @@ public class Chef_2_The_Vladenning : MonoBehaviour {
 			Destroy(gameObject);
 	
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
     }
 	private void OnCollisionEnter2D(Collision2D collision)
 	{

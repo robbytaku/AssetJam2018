@@ -7,7 +7,6 @@ TextureImporter:
     21300004: slice_2
     21300006: slice_3
     21300008: slice_4
-    21300010: slice_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -120,13 +119,13 @@ TextureImporter:
         width: 21
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937262041e467264f861a862c180a79f
+      spriteID: 51dbd6de2fa31074bb07fe41fe44383d
       vertices: []
       indices: 
       edges: []
@@ -140,13 +139,13 @@ TextureImporter:
         width: 29
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b372559c60bde243a71ce315d8e856d
+      spriteID: e7900a96840f7e54db97f81985233b98
       vertices: []
       indices: 
       edges: []
@@ -160,13 +159,13 @@ TextureImporter:
         width: 29
         height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba0e97f9246dc547b63517b375a0b0a
+      spriteID: 3245c89adeb3e004f82aa96f2c61ea76
       vertices: []
       indices: 
       edges: []
@@ -180,13 +179,13 @@ TextureImporter:
         width: 28
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f094860215f73ab4da716bf59043d511
+      spriteID: 29b5a358bef8e3c45aaec43754c056ca
       vertices: []
       indices: 
       edges: []
@@ -196,37 +195,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 2
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de315524bf78cc245ae9efaa06ff542e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slice_5
-      rect:
-        serializedVersion: 2
-        x: 184
         y: 1
-        width: 20
-        height: 25
+        width: 37
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c7127eaeb111af479398a3d0c8120cf
+      spriteID: 6182c64a9c9c93141b6ea2ace06f4a09
       vertices: []
       indices: 
       edges: []

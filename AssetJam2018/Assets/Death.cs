@@ -11,6 +11,9 @@ public class Death : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
 	public AudioSource screamSound;
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -21,6 +24,7 @@ public class Death : MonoBehaviour {
 =======
 	public AudioSource screamSound;
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
+<<<<<<< HEAD
 =======
 =======
 	public AudioSource screamSound;
@@ -30,6 +34,8 @@ public class Death : MonoBehaviour {
 	public AudioSource screamSound, soundSmash;
 	public GameObject slash;
 >>>>>>> c95f10b5acdbb195fffc8cb55b39bc1e812b08f5
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 
 	// Use this for initialization
 	void Start () {
@@ -45,6 +51,9 @@ public class Death : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of ec039bd... Revert "Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018""
 =======
 		screamSound.Play();
 >>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
@@ -55,11 +64,6 @@ public class Death : MonoBehaviour {
 =======
 		screamSound.Play();
 >>>>>>> ddc3bc55b16cb7dc0f341d145c5d53398117e471
-=======
-=======
-		screamSound.Play();
->>>>>>> a76ff8f19a2788b46cb0d514b697e3f4c83af39a
->>>>>>> parent of ddc3bc5... Revert "Merge branch 'master' of https://github.com/robbytaku/AssetJam2018"
 		Destroy(gameObject);
 		Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
 =======
