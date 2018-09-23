@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Death : MonoBehaviour {
+
+	public GameObject meat;
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+
+	// Update is called once per frame
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		Destroy(gameObject);
+		Instantiate(meat, transform.position - (transform.up * 0.15f), transform.rotation);
+	}
+}
