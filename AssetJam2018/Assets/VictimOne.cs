@@ -12,7 +12,7 @@ public class VictimOne : MonoBehaviour
     void Update()
     {
 
-        transform.position = new Vector3(transform.position.x + 0.004f, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x + 0.002f, transform.position.y, transform.position.z);
 
     }
 

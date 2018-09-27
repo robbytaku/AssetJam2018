@@ -23,6 +23,7 @@ public class Player_Controller : MonoBehaviour
     public GameObject meat, slash;
     public SpriteRenderer spriteRenderer;
     public BoxCollider2D boxCollider2D;
+	public Glow glow1, glow2, glow3;
 
     void Start()
     {
@@ -60,7 +61,7 @@ public class Player_Controller : MonoBehaviour
 
         if (weapon > 0)
         {
-            if(Input.GetKey("space") && facingRight == true) {
+            if(Input.GetKey("space") && facingRight == true && glow1.hidden == false && glow2.hidden == false && glow3.hidden == false) {
 				throwSound.Play();
                 if (weapon == 1)
                     spriteRenderer_right.sprite = bottle;

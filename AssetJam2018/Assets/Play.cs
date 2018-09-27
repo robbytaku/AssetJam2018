@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Play : MonoBehaviour {
 
-    public void PlayGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		private void Update() {
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
-     }
+		if (Input.GetKeyDown(KeyCode.Escape))
+			Application.Quit();
+
+		if (Input.anyKeyDown)
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
+	}
+
 }
 

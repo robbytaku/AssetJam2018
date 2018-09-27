@@ -15,7 +15,7 @@ public class TemporariDisabler : MonoBehaviour {
 	IEnumerator waiter()
 	{
 		colliderStuff.enabled = false;
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(3);
 		colliderStuff.enabled = true;
 	}
 
