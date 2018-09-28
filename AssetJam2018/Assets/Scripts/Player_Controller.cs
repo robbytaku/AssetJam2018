@@ -18,8 +18,7 @@ public class Player_Controller : MonoBehaviour
     public int weapon = 0;
     public SpriteRenderer spriteRenderer_left, spriteRenderer_right;
     public Sprite bottle, knife, blade, pitchfork, heavy;
-	public AudioSource throwSound;
-    public AudioSource soundSmash;
+	public AudioSource throwSound, soundSmash, soundGuyScream;
     public GameObject meat, slash;
     public SpriteRenderer spriteRenderer;
     public BoxCollider2D boxCollider2D;
@@ -82,7 +81,7 @@ public class Player_Controller : MonoBehaviour
                 weapon = 0;
 
             }
-            if(Input.GetKey("space") && facingRight == false)
+            if(Input.GetKey("space") && facingRight == false && glow1.hidden == false && glow2.hidden == false && glow3.hidden == false)
             {
 				throwSound.Play();
 				if (weapon == 1)
@@ -132,7 +131,9 @@ public class Player_Controller : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Chef"))
         {
+			weapon = 0;
             soundSmash.Play();
+			soundGuyScream.Play();
             Instantiate(slash, transform.position - (transform.up * 0.01f), transform.rotation);
             movementSpeed = 0;
             spriteRenderer.enabled = false;
@@ -148,7 +149,7 @@ public class Player_Controller : MonoBehaviour
 
     IEnumerator Death()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

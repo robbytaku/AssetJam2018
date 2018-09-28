@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Villager
   - Chef
+  - Guy
+  - Projectile
+  - Wall
   layers:
   - Default
   - TransparentFX

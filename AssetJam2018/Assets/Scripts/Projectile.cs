@@ -20,17 +20,12 @@ public class Projectile : MonoBehaviour {
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.gameObject.tag.Equals("Villager"))
+		if (collision.gameObject.tag.Equals("Villager") || collision.gameObject.tag.Equals("Chef") || collision.gameObject.tag.Equals("Wall"))
 		{
 			Destroy(gameObject);
 
 		}
 
-		if (collision.gameObject.tag.Equals("Chef"))
-		{
-			Destroy(gameObject);
-
-		}
 
 	}
 

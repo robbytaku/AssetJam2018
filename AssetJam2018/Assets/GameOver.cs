@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour {
      void Update()
     {
         if (Input.GetKeyDown("r")) {
-            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 3));
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex - 1));
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
